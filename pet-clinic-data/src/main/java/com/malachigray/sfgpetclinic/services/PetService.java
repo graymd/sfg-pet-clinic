@@ -6,7 +6,7 @@ import java.util.Set;
 
 public interface PetService {
 
-    Pet findById(login id);
+    Pet findById(Long id);
 
     Pet save(Pet owner);
 
